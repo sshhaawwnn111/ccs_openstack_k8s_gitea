@@ -45,7 +45,7 @@ openstack coe cluster template create k8s-default-template \
     --external-network public \
     --dns-nameserver 8.8.8.8 \
     --master-flavor m1.medium \
-    --flavor m1.small \
+    --flavor m1.medium \
     --docker-volume-size 150 \
     --network-driver calico \
     --coe kubernetes
