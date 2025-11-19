@@ -39,7 +39,7 @@ echo "Found image: '$K8S_IMAGE_NAME'. This will be used for the cluster template
 # A Cluster Template defines the parameters for creating a Kubernetes cluster.[29]
 # This allows for consistent cluster deployments.
 echo "Creating Magnum Cluster Template for Kubernetes..."
-openstack coe cluster template create k8s-gitea-template \
+openstack coe cluster template create k8s-gogs-template \
     --image "$K8S_IMAGE_NAME" \
     --keypair mykey \
     --external-network public \
